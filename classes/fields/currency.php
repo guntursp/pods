@@ -45,7 +45,8 @@ class PodsField_Currency extends PodsField {
     public static $currencies = array(
         'usd' => '$',
         'cad' => '$',
-        'euro' => '&euro;'
+        'euro' => '&euro;',
+		'rupiah' => 'Rp.'
     );
 
     /**
@@ -73,7 +74,8 @@ class PodsField_Currency extends PodsField {
                     array(
                         'usd' => '$ (USD)',
                         'cad' => '$ (CAD)',
-                        'euro' => '&euro; (Euro)'
+                        'euro' => '&euro; (Euro)',
+						'rupiah' => 'Rp. (IDR)'
                     )
                 )
             ),
